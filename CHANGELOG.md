@@ -1,8 +1,8 @@
 # Changelog
 
-All Notable changes to `studiobonito/silverstripe-spamprotection-honeypot` will be documented in this file.
-
-## [Unreleased]
+## [2.0.0] - 2018-06-12
+### Changed
+- SS 4 support.
 
 ## [1.1.2] - 2016-02-17
 ### Fixed
@@ -42,7 +42,6 @@ All Notable changes to `studiobonito/silverstripe-spamprotection-honeypot` will 
 ### Changed
 - Excluded methods from code coverage calculations.
 
-[Unreleased]: https://github.com/studiobonito/silverstripe-spamprotection-honeypot/compare/1.1.1...HEAD
-[1.1.1]: https://github.com/studiobonito/silverstripe-spamprotection-honeypot/compare/1.1.0...1.1.1
-[1.1.0]: https://github.com/studiobonito/silverstripe-spamprotection-honeypot/compare/1.0.1...1.1.0
-[1.0.1]: https://github.com/studiobonito/silverstripe-spamprotection-honeypot/compare/1.0.0...1.0.1
+[1.1.1]: https://github.com/symbiote-library/silverstripe-spamprotection-honeypot/compare/1.1.0...1.1.1
+[1.1.0]: https://github.com/symbiote-library/silverstripe-spamprotection-honeypot/compare/1.0.1...1.1.0
+[1.0.1]: https://github.com/symbiote-library/silverstripe-spamprotection-honeypot/compare/1.0.0...1.0.1

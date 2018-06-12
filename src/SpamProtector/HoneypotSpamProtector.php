@@ -1,6 +1,6 @@
-<?php namespace StudioBonito\SilverStripe\SpamProtection\Honeypot\SpamProtector;
+<?php namespace Symbiote\SilverStripe\SpamProtection\Honeypot\SpamProtector;
 
-use StudioBonito\SilverStripe\SpamProtection\Honeypot\FormField\HoneypotField;
+use Symbiote\SilverStripe\SpamProtection\Honeypot\FormField\HoneypotField;
 use SilverStripe\SpamProtection\SpamProtector;
 
 class HoneypotSpamProtector implements SpamProtector

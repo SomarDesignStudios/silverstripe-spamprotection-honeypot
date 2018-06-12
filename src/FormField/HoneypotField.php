@@ -1,4 +1,4 @@
-<?php namespace StudioBonito\SilverStripe\SpamProtection\Honeypot\FormField;
+<?php namespace Symbiote\SilverStripe\SpamProtection\Honeypot\FormField;
 
 use SilverStripe\Core\Config\Config;
 use SilverStripe\Forms\TextField;

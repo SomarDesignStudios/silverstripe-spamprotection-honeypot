@@ -2,7 +2,7 @@
 
 Contributions are **welcome** and will be fully **credited**.
 
-We accept contributions via Pull Requests on [Github](https://github.com/studiobonito/silverstripe-google-analytics/tree/develop).
+We accept contributions via Pull Requests on [Github](https://github.com/symbiote-library/silverstripe-google-analytics/tree/develop).
 
 
 ## Pull Requests

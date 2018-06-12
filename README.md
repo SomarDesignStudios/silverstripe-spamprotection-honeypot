@@ -2,9 +2,6 @@
 
 [![Latest Version on Packagist][ico-version]][link-packagist]
 [![Software License][ico-license]](LICENSE.md)
-[![Build Status][ico-travis]][link-travis]
-[![Coverage Status][ico-scrutinizer]][link-scrutinizer]
-[![Quality Score][ico-code-quality]][link-code-quality]
 [![Total Downloads][ico-downloads]][link-downloads]
 
 ## Overview
@@ -25,7 +22,7 @@ Also invalidate submissions that respond to quickly.
 Run the following to add this module as a requirement and install it via composer.
 
 ```bash
-$ composer require studiobonito/silverstripe-spamprotection-honeypot
+$ composer require symbiote-library/silverstripe-spamprotection-honeypot
 ```
 
 ### Manually
@@ -41,7 +38,7 @@ Create a configuration file `spamprotection.yml` in `mysite/_config` with the fo
 name: spamprotection
 ---
 SilverStripe\SpamProtection\Extension\FormSpamProtectionExtension:
-  default_spam_protector: '\StudioBonito\SilverStripe\SpamProtection\Honeypot\SpamProtector\HoneypotSpamProtector'
+  default_spam_protector: '\Symbiote\SilverStripe\SpamProtection\Honeypot\SpamProtector\HoneypotSpamProtector'
 ```
 
 Then enable spam protection on your form by calling `Form::enableSpamProtection()`.
@@ -60,7 +57,7 @@ public function ExampleForm()
 You can change the amount time that is checked to see if the response is made too quickly with the following configuration.
 
 ```yaml
-StudioBonito\SilverStripe\SpamProtection\Honeypot\FormField\HoneypotField:
+Symbiote\SilverStripe\SpamProtection\Honeypot\FormField\HoneypotField:
   time_limit: 1
 ```
 
@@ -79,7 +76,7 @@ Please see [CONTRIBUTING](CONTRIBUTING.md) for details.
 
 ## Security
 
-If you discover any security related issues, please email support@studiobonito.co.uk instead of using the issue tracker.
+If you discover any security related issues, please email maintainers+library@symbiote.com.au instead of using the issue tracker.
 
 ## Credits
 
@@ -90,17 +87,11 @@ If you discover any security related issues, please email support@studiobonito.c
 
 The BSD-2-Clause License. Please see [License File](LICENSE.md) for more information.
 
-[ico-version]: https://img.shields.io/packagist/v/studiobonito/silverstripe-spamprotection-honeypot.svg?style=flat-square
+[ico-version]: https://img.shields.io/packagist/v/symbiote-library/silverstripe-spamprotection-honeypot.svg?style=flat-square
 [ico-license]: https://img.shields.io/badge/license-BSD-brightgreen.svg?style=flat-square
-[ico-travis]: https://img.shields.io/travis/studiobonito/silverstripe-spamprotection-honeypot/master.svg?style=flat-square
-[ico-scrutinizer]: https://img.shields.io/scrutinizer/coverage/g/studiobonito/silverstripe-spamprotection-honeypot.svg?style=flat-square
-[ico-code-quality]: https://img.shields.io/scrutinizer/g/studiobonito/silverstripe-spamprotection-honeypot.svg?style=flat-square
-[ico-downloads]: https://img.shields.io/packagist/dt/studiobonito/silverstripe-spamprotection-honeypot.svg?style=flat-square
+[ico-downloads]: https://img.shields.io/packagist/dt/symbiote-library/silverstripe-spamprotection-honeypot.svg?style=flat-square
 
-[link-packagist]: https://packagist.org/packages/studiobonito/silverstripe-spamprotection-honeypot
-[link-travis]: https://travis-ci.org/studiobonito/silverstripe-spamprotection-honeypot
-[link-scrutinizer]: https://scrutinizer-ci.com/g/studiobonito/silverstripe-spamprotection-honeypot/code-structure
-[link-code-quality]: https://scrutinizer-ci.com/g/studiobonito/silverstripe-spamprotection-honeypot
-[link-downloads]: https://packagist.org/packages/studiobonito/silverstripe-spamprotection-honeypot
+[link-packagist]: https://packagist.org/packages/symbiote-library/silverstripe-spamprotection-honeypot
+[link-downloads]: https://packagist.org/packages/symbiote-library/silverstripe-spamprotection-honeypot
 [link-author]: https://github.com/nedmas
 [link-contributors]: ../../contributors

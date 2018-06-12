@@ -1,7 +1,7 @@
-<?php namespace StudioBonito\SilverStripe\SpamProtection\Honeypot\Tests;
+<?php namespace Symbiote\SilverStripe\SpamProtection\Honeypot\Tests;
 
 use Mockery as m;
-use StudioBonito\SilverStripe\SpamProtection\Honeypot\FormField\HoneypotField;
+use Symbiote\SilverStripe\SpamProtection\Honeypot\FormField\HoneypotField;
 use SilverStripe\Core\Config\Config;
 use SilverStripe\Control\Controller;
 use SilverStripe\Forms\Form;
@@ -19,7 +19,7 @@ class HoneypotFieldTest extends SapphireTest
     }
 
     /**
-     * @covers StudioBonito\SilverStripe\SpamProtection\Honeypot\FormField\HoneypotField::validate
+     * @covers Symbiote\SilverStripe\SpamProtection\Honeypot\FormField\HoneypotField::validate
      */
     public function testInvalidWithCaptcha()
     {
@@ -36,7 +36,7 @@ class HoneypotFieldTest extends SapphireTest
     }
 
     /**
-     * @covers StudioBonito\SilverStripe\SpamProtection\Honeypot\FormField\HoneypotField::validate
+     * @covers Symbiote\SilverStripe\SpamProtection\Honeypot\FormField\HoneypotField::validate
      */
     public function testValidWithEmptyCaptcha()
     {
@@ -55,7 +55,7 @@ class HoneypotFieldTest extends SapphireTest
     public function testCustomStyleAttribute()
     {
         $styleRule = "position:absolute!important;left:-9000px!important;";
-        Config::modify()->set('StudioBonito\SilverStripe\SpamProtection\Honeypot\FormField\HoneypotField', 'field_style_rule', $styleRule);
+        Config::modify()->set('Symbiote\SilverStripe\SpamProtection\Honeypot\FormField\HoneypotField', 'field_style_rule', $styleRule);
         
         $honeypotField = new HoneypotField('Captcha');
         $honeypotField->setValue(null);
@@ -68,7 +68,7 @@ class HoneypotFieldTest extends SapphireTest
     public function testDefaultStyleAttribute()
     {
         $defaultStyleRule = 'display:none!important';
-        Config::inst()->remove('StudioBonito\SilverStripe\SpamProtection\Honeypot\FormField\HoneypotField', 'field_style_rule');
+        Config::inst()->remove('Symbiote\SilverStripe\SpamProtection\Honeypot\FormField\HoneypotField', 'field_style_rule');
         
         $honeypotField = new HoneypotField('Captcha');
         $honeypotField->setValue(null);

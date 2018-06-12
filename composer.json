@@ -1,9 +1,8 @@
 {
-    "name": "studiobonito/silverstripe-spamprotection-honeypot",
+    "name": "symbiote-library/silverstripe-spamprotection-honeypot",
     "description": "Provide Honeypot spam protection for SilverStripe CMS.",
     "type": "silverstripe-vendormodule",
     "keywords": [
-        "studiobonito",
         "silverstripe-spamprotection-honeypot",
         "silverstripe",
         "spam",
@@ -11,14 +10,13 @@
         "honeypot",
         "form"
     ],
-    "homepage": "https://github.com/studiobonito/silverstripe-spamprotection-honeypot",
+    "homepage": "https://github.com/symbiote-library/silverstripe-spamprotection-honeypot",
     "license": "BSD-2-Clause",
     "authors": [
         {
-            "name": "Tom Densham",
-            "email": "tom.densham@studiobonito.co.uk",
-            "homepage": "http://www.studiobonito.co.uk",
-            "role": "Developer"
+            "name": "Nathan Glasl",
+            "email": "nathan@symbiote.com.au",
+            "homepage": "https://www.symbiote.com.au/"
         }
     ],
     "require": {
@@ -32,12 +30,12 @@
     },
     "autoload": {
         "psr-4": {
-            "StudioBonito\\SilverStripe\\SpamProtection\\Honeypot\\": "src"
+            "Symbiote\\SilverStripe\\SpamProtection\\Honeypot\\": "src"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "StudioBonito\\SilverStripe\\SpamProtection\\Honeypot\\Tests\\": "tests"
+            "Symbiote\\SilverStripe\\SpamProtection\\Honeypot\\Tests\\": "tests"
         }
     },
     "extra": {
