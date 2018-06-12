@@ -43,6 +43,9 @@
             "dev-master": "2.0.x-dev"
         }
     },
+    "replace": {
+        "studiobonito/silverstripe-spamprotection-honeypot": "self.version"
+    },
     "minimum-stability": "dev",
     "prefer-stable": true
 }
